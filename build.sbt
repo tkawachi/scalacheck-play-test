@@ -3,6 +3,7 @@ name := """scalacheck-play-test"""
 version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file("."))
+  // Please try by Commenting out/in the following line
   .enablePlugins(PlayScala).disablePlugins(PlayLayoutPlugin)
 
 scalaVersion := "2.11.6"
